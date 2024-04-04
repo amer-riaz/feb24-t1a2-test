@@ -111,7 +111,8 @@ main > img {
     height: 40dvh;
     width: 50dvw;
     margin: 2em;
-    background-color: var(--purple-heart-950);
+    /* background-color: var(--purple-heart-950); */
     color: var(--purple-heart-100);
-    object-fit: cover;
+    /* object-fit: cover; */
+    object-fit: contain;
 }
