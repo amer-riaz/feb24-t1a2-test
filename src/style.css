@@ -139,6 +139,17 @@ main > img {
 
 }
 
+.bannerImage {
+    height: 15dvh;
+    width: 100dvw;
+    margin: 0.25em;
+    /* background-color: var(--jade-950); */
+    color: var(--jade-100);
+    /* object-fit: cover; */
+    object-fit: contain;
+
+}
+
 /* big screens */
 /* Sytles for screens 600px wide and larger */
 @media screen and (min-width: 600px) {
@@ -146,7 +157,17 @@ main > img {
         /* background-color: palegreen; */
 
     }
+    .bannerImage {
+        height: 30dvh;
+        width: 100dvw;
+        margin: 1em;
+        /* background-color: var(--jade-950); */
+        color: var(--jade-100);
+        /* object-fit: cover; */
+        object-fit: contain;
     
+    }
+        
     .row {
         display: flex;
         flex-direction: row;
