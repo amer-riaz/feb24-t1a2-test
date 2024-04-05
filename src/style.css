@@ -151,8 +151,9 @@ main > img {
 }
 
 .aboutH2 {
-    border-bottom: 0.15em;
-    width: fit-content;
+    /* border-bottom: 0.15em; */
+    height: 0.01dvh;
+    /* width: fit-content; */
 }
 
 .aboutP {
