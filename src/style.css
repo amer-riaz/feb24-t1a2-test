@@ -79,6 +79,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 main > * {
@@ -113,11 +115,36 @@ main > img {
     height: 10dvh;
 }
 
+.blogCards{
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 1em;
+}
+
+.card > img {
+    height: 20dvh;
+    width: 20dvw;
+    /* margin: em; */
+    /* background-color: var(--jade-950); */
+    color: var(--jade-100);
+    /* object-fit: cover; */
+    object-fit: contain;
+
+}
+
 /* big screens */
 /* Sytles for screens 600px wide and larger */
 @media screen and (min-width: 600px) {
     body {
         /* background-color: palegreen; */
+
     }
     
     .row {
