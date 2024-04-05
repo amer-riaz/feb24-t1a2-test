@@ -91,6 +91,8 @@ main > a {
 
 main > p {
     font-size: small;
+    text-align:left;
+    padding: 1em;
 }
 
 main > h1 {
@@ -105,4 +107,30 @@ main > img {
     color: var(--jade-100);
     /* object-fit: cover; */
     object-fit: contain;
+}
+
+#message {
+    height: 10dvh;
+}
+
+/* big screens */
+/* Sytles for screens 600px wide and larger */
+@media screen and (min-width: 600px) {
+    body {
+        /* background-color: palegreen; */
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    /* h3 {
+        display: none;
+    } */
+    
+    /* Create three equal columns that float next to each other */
+    /* .column {
+        float: left;
+        width: 33.33%;
+    } */
 }
