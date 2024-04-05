@@ -150,6 +150,15 @@ main > img {
 
 }
 
+.aboutH2 {
+    border-bottom: 0.15em;
+    width: fit-content;
+}
+
+.aboutP {
+    margin-top: 1em;
+}
+
 /* big screens */
 /* Sytles for screens 600px wide and larger */
 @media screen and (min-width: 600px) {
